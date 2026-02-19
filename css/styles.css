@@ -1,0 +1,33 @@
+body{
+    background-color:#ecf39e;
+    font-family: sans-serif;
+}
+
+.nav-mascotas {
+    background-color: #ff914d;
+    padding: 15px 0;
+}
+
+.nav-mascotas ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-mascotas a {
+    text-decoration: none;
+    color: #132a13;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+}
+
+.nav-mascotas a:hover {
+    color: #333;
+    background-color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
